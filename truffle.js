@@ -8,7 +8,7 @@ module.exports = {
           path: "44'/60'/0'/0", // ledger default derivation path
           askConfirm: false,
           accountsLength: 1,
-          networkId: 3, // ropsten testnet
+          networkId: 1, // ropsten testnet
           accountsOffset: 0 // we use the first address
         },
         `https://mainnet.infura.io/${process.env.INFURA_APIKEY}`
